@@ -56,8 +56,8 @@ pipeline {
             }
             steps {
                 sh ''' 
-                    // Added my myself
-                    npm ci
+                    // // Added my myself
+                    // npm ci
 
                     npm install serve
                     node_modules/.bin/serve -s build &
